@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0FD07D1FE4FEDC00F6E815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FD07C1FE4FEDC00F6E815 /* AppDelegate.m */; };
-		4F0FD0801FE4FEDC00F6E815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FD07F1FE4FEDC00F6E815 /* ViewController.m */; };
-		4F0FD0831FE4FEDC00F6E815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FD0811FE4FEDC00F6E815 /* Main.storyboard */; };
-		4F0FD0851FE4FEDC00F6E815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FD0841FE4FEDC00F6E815 /* Assets.xcassets */; };
-		4F0FD0881FE4FEDC00F6E815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0FD0861FE4FEDC00F6E815 /* LaunchScreen.storyboard */; };
-		4F0FD08B1FE4FEDC00F6E815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FD08A1FE4FEDC00F6E815 /* main.m */; };
-		4F0FD0941FE4FF4C00F6E815 /* RMVersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FD0921FE4FF4C00F6E815 /* RMVersionUtil.m */; };
+		4F97D1E91FFE275800596EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97D1E81FFE275800596EDC /* AppDelegate.m */; };
+		4F97D1EC1FFE275800596EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97D1EB1FFE275800596EDC /* ViewController.m */; };
+		4F97D1EF1FFE275800596EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F97D1ED1FFE275800596EDC /* Main.storyboard */; };
+		4F97D1F11FFE275800596EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F97D1F01FFE275800596EDC /* Assets.xcassets */; };
+		4F97D1F41FFE275800596EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F97D1F21FFE275800596EDC /* LaunchScreen.storyboard */; };
+		4F97D1F71FFE275800596EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97D1F61FFE275800596EDC /* main.m */; };
+		4F97D2001FFE279E00596EDC /* RMVersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97D1FF1FFE279E00596EDC /* RMVersionUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F0FD0781FE4FEDC00F6E815 /* RMVersionUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMVersionUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0FD07B1FE4FEDC00F6E815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4F0FD07C1FE4FEDC00F6E815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F0FD07E1FE4FEDC00F6E815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F0FD07F1FE4FEDC00F6E815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4F0FD0821FE4FEDC00F6E815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F0FD0841FE4FEDC00F6E815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F0FD0871FE4FEDC00F6E815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F0FD0891FE4FEDC00F6E815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F0FD08A1FE4FEDC00F6E815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4F0FD0921FE4FF4C00F6E815 /* RMVersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMVersionUtil.m; sourceTree = "<group>"; };
-		4F0FD0931FE4FF4C00F6E815 /* RMVersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMVersionUtil.h; sourceTree = "<group>"; };
+		4F97D1E41FFE275800596EDC /* RMVersionCheckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMVersionCheckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F97D1E71FFE275800596EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F97D1E81FFE275800596EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F97D1EA1FFE275800596EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F97D1EB1FFE275800596EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F97D1EE1FFE275800596EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F97D1F01FFE275800596EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F97D1F31FFE275800596EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F97D1F51FFE275800596EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F97D1F61FFE275800596EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F97D1FE1FFE279E00596EDC /* RMVersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMVersionUtil.h; sourceTree = "<group>"; };
+		4F97D1FF1FFE279E00596EDC /* RMVersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMVersionUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F0FD0751FE4FEDC00F6E815 /* Frameworks */ = {
+		4F97D1E11FFE275800596EDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,44 +42,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F0FD06F1FE4FEDC00F6E815 = {
+		4F97D1DB1FFE275800596EDC = {
 			isa = PBXGroup;
 			children = (
-				4F0FD07A1FE4FEDC00F6E815 /* RMVersionUpdate */,
-				4F0FD0791FE4FEDC00F6E815 /* Products */,
+				4F97D1E61FFE275800596EDC /* RMVersionCheckDemo */,
+				4F97D1E51FFE275800596EDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F0FD0791FE4FEDC00F6E815 /* Products */ = {
+		4F97D1E51FFE275800596EDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F0FD0781FE4FEDC00F6E815 /* RMVersionUpdate.app */,
+				4F97D1E41FFE275800596EDC /* RMVersionCheckDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F0FD07A1FE4FEDC00F6E815 /* RMVersionUpdate */ = {
+		4F97D1E61FFE275800596EDC /* RMVersionCheckDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4F0FD0911FE4FEF900F6E815 /* RMVersionUtil */,
-				4F0FD07B1FE4FEDC00F6E815 /* AppDelegate.h */,
-				4F0FD07C1FE4FEDC00F6E815 /* AppDelegate.m */,
-				4F0FD07E1FE4FEDC00F6E815 /* ViewController.h */,
-				4F0FD07F1FE4FEDC00F6E815 /* ViewController.m */,
-				4F0FD0811FE4FEDC00F6E815 /* Main.storyboard */,
-				4F0FD0841FE4FEDC00F6E815 /* Assets.xcassets */,
-				4F0FD0861FE4FEDC00F6E815 /* LaunchScreen.storyboard */,
-				4F0FD0891FE4FEDC00F6E815 /* Info.plist */,
-				4F0FD08A1FE4FEDC00F6E815 /* main.m */,
+				4F97D1FD1FFE279E00596EDC /* RMVersionUtil */,
+				4F97D1E71FFE275800596EDC /* AppDelegate.h */,
+				4F97D1E81FFE275800596EDC /* AppDelegate.m */,
+				4F97D1EA1FFE275800596EDC /* ViewController.h */,
+				4F97D1EB1FFE275800596EDC /* ViewController.m */,
+				4F97D1ED1FFE275800596EDC /* Main.storyboard */,
+				4F97D1F01FFE275800596EDC /* Assets.xcassets */,
+				4F97D1F21FFE275800596EDC /* LaunchScreen.storyboard */,
+				4F97D1F51FFE275800596EDC /* Info.plist */,
+				4F97D1F61FFE275800596EDC /* main.m */,
 			);
-			path = RMVersionUpdate;
+			path = RMVersionCheckDemo;
 			sourceTree = "<group>";
 		};
-		4F0FD0911FE4FEF900F6E815 /* RMVersionUtil */ = {
+		4F97D1FD1FFE279E00596EDC /* RMVersionUtil */ = {
 			isa = PBXGroup;
 			children = (
-				4F0FD0931FE4FF4C00F6E815 /* RMVersionUtil.h */,
-				4F0FD0921FE4FF4C00F6E815 /* RMVersionUtil.m */,
+				4F97D1FE1FFE279E00596EDC /* RMVersionUtil.h */,
+				4F97D1FF1FFE279E00596EDC /* RMVersionUtil.m */,
 			);
 			path = RMVersionUtil;
 			sourceTree = "<group>";
@@ -87,39 +87,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F0FD0771FE4FEDC00F6E815 /* RMVersionUpdate */ = {
+		4F97D1E31FFE275800596EDC /* RMVersionCheckDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F0FD08E1FE4FEDC00F6E815 /* Build configuration list for PBXNativeTarget "RMVersionUpdate" */;
+			buildConfigurationList = 4F97D1FA1FFE275800596EDC /* Build configuration list for PBXNativeTarget "RMVersionCheckDemo" */;
 			buildPhases = (
-				4F0FD0741FE4FEDC00F6E815 /* Sources */,
-				4F0FD0751FE4FEDC00F6E815 /* Frameworks */,
-				4F0FD0761FE4FEDC00F6E815 /* Resources */,
+				4F97D1E01FFE275800596EDC /* Sources */,
+				4F97D1E11FFE275800596EDC /* Frameworks */,
+				4F97D1E21FFE275800596EDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RMVersionUpdate;
-			productName = RMVersionUpdate;
-			productReference = 4F0FD0781FE4FEDC00F6E815 /* RMVersionUpdate.app */;
+			name = RMVersionCheckDemo;
+			productName = RMVersionCheckDemo;
+			productReference = 4F97D1E41FFE275800596EDC /* RMVersionCheckDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F0FD0701FE4FEDC00F6E815 /* Project object */ = {
+		4F97D1DC1FFE275800596EDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "R丶M";
 				TargetAttributes = {
-					4F0FD0771FE4FEDC00F6E815 = {
+					4F97D1E31FFE275800596EDC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4F0FD0731FE4FEDC00F6E815 /* Build configuration list for PBXProject "RMVersionUpdate" */;
+			buildConfigurationList = 4F97D1DF1FFE275800596EDC /* Build configuration list for PBXProject "RMVersionCheckDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,56 +127,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F0FD06F1FE4FEDC00F6E815;
-			productRefGroup = 4F0FD0791FE4FEDC00F6E815 /* Products */;
+			mainGroup = 4F97D1DB1FFE275800596EDC;
+			productRefGroup = 4F97D1E51FFE275800596EDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F0FD0771FE4FEDC00F6E815 /* RMVersionUpdate */,
+				4F97D1E31FFE275800596EDC /* RMVersionCheckDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F0FD0761FE4FEDC00F6E815 /* Resources */ = {
+		4F97D1E21FFE275800596EDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0FD0881FE4FEDC00F6E815 /* LaunchScreen.storyboard in Resources */,
-				4F0FD0851FE4FEDC00F6E815 /* Assets.xcassets in Resources */,
-				4F0FD0831FE4FEDC00F6E815 /* Main.storyboard in Resources */,
+				4F97D1F41FFE275800596EDC /* LaunchScreen.storyboard in Resources */,
+				4F97D1F11FFE275800596EDC /* Assets.xcassets in Resources */,
+				4F97D1EF1FFE275800596EDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F0FD0741FE4FEDC00F6E815 /* Sources */ = {
+		4F97D1E01FFE275800596EDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0FD0801FE4FEDC00F6E815 /* ViewController.m in Sources */,
-				4F0FD0941FE4FF4C00F6E815 /* RMVersionUtil.m in Sources */,
-				4F0FD08B1FE4FEDC00F6E815 /* main.m in Sources */,
-				4F0FD07D1FE4FEDC00F6E815 /* AppDelegate.m in Sources */,
+				4F97D1EC1FFE275800596EDC /* ViewController.m in Sources */,
+				4F97D2001FFE279E00596EDC /* RMVersionUtil.m in Sources */,
+				4F97D1F71FFE275800596EDC /* main.m in Sources */,
+				4F97D1E91FFE275800596EDC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4F0FD0811FE4FEDC00F6E815 /* Main.storyboard */ = {
+		4F97D1ED1FFE275800596EDC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F0FD0821FE4FEDC00F6E815 /* Base */,
+				4F97D1EE1FFE275800596EDC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4F0FD0861FE4FEDC00F6E815 /* LaunchScreen.storyboard */ = {
+		4F97D1F21FFE275800596EDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F0FD0871FE4FEDC00F6E815 /* Base */,
+				4F97D1F31FFE275800596EDC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F0FD08C1FE4FEDC00F6E815 /* Debug */ = {
+		4F97D1F81FFE275800596EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		4F0FD08D1FE4FEDC00F6E815 /* Release */ = {
+		4F97D1F91FFE275800596EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,27 +288,27 @@
 			};
 			name = Release;
 		};
-		4F0FD08F1FE4FEDC00F6E815 /* Debug */ = {
+		4F97D1FB1FFE275800596EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RMVersionUpdate/Info.plist;
+				INFOPLIST_FILE = RMVersionCheckDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kitty.Technolgy.RMVersionUpdate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitty.Technolgy.RMVersionCheckDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4F0FD0901FE4FEDC00F6E815 /* Release */ = {
+		4F97D1FC1FFE275800596EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RMVersionUpdate/Info.plist;
+				INFOPLIST_FILE = RMVersionCheckDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kitty.Technolgy.RMVersionUpdate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kitty.Technolgy.RMVersionCheckDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F0FD0731FE4FEDC00F6E815 /* Build configuration list for PBXProject "RMVersionUpdate" */ = {
+		4F97D1DF1FFE275800596EDC /* Build configuration list for PBXProject "RMVersionCheckDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F0FD08C1FE4FEDC00F6E815 /* Debug */,
-				4F0FD08D1FE4FEDC00F6E815 /* Release */,
+				4F97D1F81FFE275800596EDC /* Debug */,
+				4F97D1F91FFE275800596EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F0FD08E1FE4FEDC00F6E815 /* Build configuration list for PBXNativeTarget "RMVersionUpdate" */ = {
+		4F97D1FA1FFE275800596EDC /* Build configuration list for PBXNativeTarget "RMVersionCheckDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F0FD08F1FE4FEDC00F6E815 /* Debug */,
-				4F0FD0901FE4FEDC00F6E815 /* Release */,
+				4F97D1FB1FFE275800596EDC /* Debug */,
+				4F97D1FC1FFE275800596EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F0FD0701FE4FEDC00F6E815 /* Project object */;
+	rootObject = 4F97D1DC1FFE275800596EDC /* Project object */;
 }
