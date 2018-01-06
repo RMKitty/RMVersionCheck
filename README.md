@@ -1,4 +1,7 @@
 # RMVersionCheck
+```
+ios 7.0+
+```
 ios local version and serve Version  check 
 
 # How to use RMVersionUtil
