@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4F540250200868C700D4FC86 /* RMVersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F54024F200868C700D4FC86 /* RMVersionUtil.m */; };
-		4F54025A2008694300D4FC86 /* RMVersionCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5402582008694300D4FC86 /* RMVersionCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F54025D2008694300D4FC86 /* RMVersionCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5402562008694300D4FC86 /* RMVersionCheck.framework */; };
 		4F54025E2008694300D4FC86 /* RMVersionCheck.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5402562008694300D4FC86 /* RMVersionCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F5402632008697F00D4FC86 /* RMVersionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F54024F200868C700D4FC86 /* RMVersionUtil.m */; };
+		4F54026F200876E700D4FC86 /* RMVersionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F54024E200868C700D4FC86 /* RMVersionUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F54027520087C4F00D4FC86 /* RMVersionCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F54027420087C4F00D4FC86 /* RMVersionCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F97D1E91FFE275800596EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97D1E81FFE275800596EDC /* AppDelegate.m */; };
 		4F97D1EC1FFE275800596EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F97D1EB1FFE275800596EDC /* ViewController.m */; };
 		4F97D1EF1FFE275800596EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F97D1ED1FFE275800596EDC /* Main.storyboard */; };
@@ -48,8 +49,8 @@
 		4F54024E200868C700D4FC86 /* RMVersionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMVersionUtil.h; sourceTree = "<group>"; };
 		4F54024F200868C700D4FC86 /* RMVersionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMVersionUtil.m; sourceTree = "<group>"; };
 		4F5402562008694300D4FC86 /* RMVersionCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMVersionCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5402582008694300D4FC86 /* RMVersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMVersionCheck.h; sourceTree = "<group>"; };
 		4F5402592008694300D4FC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F54027420087C4F00D4FC86 /* RMVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMVersionCheck.h; path = RMVersionCheck/RMVersionCheck.h; sourceTree = SOURCE_ROOT; };
 		4F97D1E41FFE275800596EDC /* RMVersionCheckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMVersionCheckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F97D1E71FFE275800596EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F97D1E81FFE275800596EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		4F54024D200868C700D4FC86 /* RMVersionCheck */ = {
 			isa = PBXGroup;
 			children = (
+				4F54027420087C4F00D4FC86 /* RMVersionCheck.h */,
 				4F54024E200868C700D4FC86 /* RMVersionUtil.h */,
 				4F54024F200868C700D4FC86 /* RMVersionUtil.m */,
 			);
@@ -94,7 +96,6 @@
 		4F5402572008694300D4FC86 /* RMVersionCheck */ = {
 			isa = PBXGroup;
 			children = (
-				4F5402582008694300D4FC86 /* RMVersionCheck.h */,
 				4F5402592008694300D4FC86 /* Info.plist */,
 			);
 			path = RMVersionCheck;
@@ -142,7 +143,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F54025A2008694300D4FC86 /* RMVersionCheck.h in Headers */,
+				4F54027520087C4F00D4FC86 /* RMVersionCheck.h in Headers */,
+				4F54026F200876E700D4FC86 /* RMVersionUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

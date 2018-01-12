@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "RMVersionUtil.h"
 
+#import "RMVersionCheck.h"
 @interface ViewController ()
 
 @end
