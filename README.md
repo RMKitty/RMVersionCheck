@@ -1,6 +1,6 @@
 # RMVersionCheck
 ```
-ios 7.0+
+iOS 7.0+
 ```
 ios local version and serve Version  check 
 
